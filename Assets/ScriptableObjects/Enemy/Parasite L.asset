@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95424ebea50c854f8b1388e00aa2af0, type: 3}
+  m_Name: Parasite L
+  m_EditorClassIdentifier: 
+  maxHp: 2000
+  headShotMultiplier: 4
+  aggroDistance: 20
+  stopAggroDistance: 200
+  viewAngle: 120
+  closeDetectionDistance: 5
+  damage: 10
+  attackRange: 3
+  attackCooldown: 3
+  speedMultiplier: 2.5
+  hitSound: {fileID: 8300000, guid: 609949d2fab11094dbe6538bef4f4600, type: 3}
+  headShotSound: {fileID: 8300000, guid: 87269b93bb8949e4491d684432f7fda3, type: 3}
+  enemyDieSound: {fileID: 8300000, guid: caba632ce6f0037489de9702f5c0e109, type: 3}
+  enemySound:
+  - {fileID: 8300000, guid: 59934daf2d1d4024783a9ec11a67e165, type: 3}
+  - {fileID: 8300000, guid: 1a13aa188bcff35448ece614e884c499, type: 3}
+  - {fileID: 8300000, guid: a5f4f6d9f69d71e45a2a80920ba3bffe, type: 3}
+  - {fileID: 8300000, guid: 74a274ca57cc57545a584ad5ea7d4904, type: 3}
+  - {fileID: 8300000, guid: e39c63c891e782a48b6c8b13a61fb54e, type: 3}
+  - {fileID: 8300000, guid: 4d7b97590ed9d2945a16c5c0d5c1352d, type: 3}
+  - {fileID: 8300000, guid: b96035fab081f444b9b05091c6a2441f, type: 3}
+  enemySoundInterval: 5

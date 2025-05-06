@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affea01218f7e91469dc5bc403105736, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: 
+  maxHp: 100
+  maxWalkSpeed: {x: 3.75, y: 0, z: 5.625}
+  maxSprintSpeed: {x: 5, y: 0, z: 7.5}
+  acceleration: 10
+  jumpForce: 7
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  shootRange: 1000
+  damage: 10
+  defaultMagazineSize: 30
+  defaultNumberOfBullet: 200
+  reloadTime: 2.5
+  fireRate: 0.1
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 16384
+  interactDistance: 3.5
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 768
