@@ -73,6 +73,7 @@ crashlytics-build.properties
 # Custom
 
 .idea/
+
 Assets/Plugins/
 Assets/Art/
 Assets/Audio/
